@@ -13,9 +13,9 @@ body {
 }
 
 .container {
-  width: 70em;
+  width: 75em;
   height: 50em;
-  margin: 5em auto;
+  margin: 6.5em auto;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -96,7 +96,7 @@ body {
   gap: 5em;
 }
 .main .lead {
-  width: 50em;
+  width: 55em;
 }
 .main .lead h1 {
   color: hsl(300deg, 43%, 22%);
