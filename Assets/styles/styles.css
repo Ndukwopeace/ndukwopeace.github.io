@@ -1,0 +1,185 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.container {
+  width: 70em;
+  height: 50em;
+  margin: 5em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+@media (max-width: 25em) {
+  .container {
+    margin: 1em auto;
+    width: 20em;
+    height: 98em;
+  }
+}
+.colton, .irene, .anne {
+  border-radius: 0.5em;
+  width: 20rem;
+  height: 17em;
+  padding: 2em;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(300deg, 43%, 22%);
+}
+.colton h2, .irene h2, .anne h2 {
+  font-size: 1.1em;
+  width: 8em;
+}
+.colton span, .irene span, .anne span {
+  color: hsl(333deg, 80%, 67%);
+}
+.colton p, .irene p, .anne p {
+  line-height: 1.5em;
+}
+
+@media (max-width: 25em) {
+  .colton, .irene, .anne {
+    width: 19.5em;
+    margin: 0 auto;
+  }
+}
+.reviews, .guru, .besttech {
+  width: 30em;
+  border-radius: 0.2em;
+  background-color: hsl(300deg, 24%, 96%);
+  color: hsl(300deg, 43%, 22%);
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  font-weight: 700;
+}
+
+@media (max-width: 25em) {
+  .reviews, .guru, .besttech {
+    padding: 0.5em;
+    width: 19.5em;
+    flex-direction: column;
+    align-items: center;
+    gap: 0em;
+    margin: 0 auto;
+    font-weight: 700;
+    border-radius: 0.5em;
+    text-align: center;
+  }
+}
+.star {
+  margin-left: 1.5em;
+  display: flex;
+  gap: 0.5em;
+}
+.star .fa-star {
+  color: orange;
+}
+
+@media (max-width: 25em) {
+  .star {
+    margin-left: 0;
+  }
+}
+.main {
+  display: flex;
+  gap: 5em;
+}
+.main .lead {
+  width: 50em;
+}
+.main .lead h1 {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 4em;
+}
+.main .lead p {
+  margin-top: -1.5em;
+  line-height: 1.5em;
+  font-size: 1.4em;
+}
+.main .ratings {
+  padding-top: 4em;
+  width: 60em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.main .ratings .guru {
+  margin-left: 4em;
+}
+.main .ratings .besttech {
+  margin-left: 8em;
+}
+
+@media (max-width: 25em) {
+  .main {
+    flex-direction: column;
+    gap: 4em;
+  }
+  .main .lead {
+    width: 20em;
+  }
+  .main .lead h1 {
+    font-size: 2em;
+    width: 9em;
+    margin: 1em auto;
+    text-align: center;
+  }
+  .main .lead p {
+    margin: -1.1em auto;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 18.1em;
+  }
+  .main .ratings {
+    width: 20em;
+    gap: 1em;
+    padding-top: 0;
+  }
+  .main .ratings .guru, .main .ratings .besttech {
+    margin-left: 0;
+  }
+}
+.comments {
+  display: flex;
+  height: 26em;
+  justify-content: space-between;
+}
+.comments .irene {
+  margin-top: 2em;
+}
+.comments .anne {
+  margin-top: 4em;
+}
+.comments .heading {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+.comments .heading .pic {
+  width: 3em;
+}
+.comments .heading .pic img {
+  max-width: 100%;
+  border-radius: 1.5em;
+}
+
+@media (max-width: 25em) {
+  .comments {
+    flex-direction: column;
+  }
+  .comments .anne {
+    margin-top: 2em;
+  }
+}/*# sourceMappingURL=styles.css.map */

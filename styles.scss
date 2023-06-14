@@ -1,0 +1,230 @@
+// Primary
+
+$Very-Dark-Magenta: hsl(300, 43%, 22%);
+$Soft-Pink:hsl(333, 80%, 67%);
+
+// Neutral
+
+$Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+$Light-Grayish-Magenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+
+*,
+*:before,
+*:after{
+    -moz-box-sizing : border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-color: $White;
+}
+
+// general
+.container{
+    width: 70em;
+    height: 50em;
+    margin: 5em auto;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+@media(max-width: 25em){
+    .container{
+        margin: 1em auto;
+        width: 20em;
+        height: 98em;
+    }
+}
+// comments ===============================^^^^
+.colton,.irene,.anne{
+    border-radius: 0.5em;
+    width: 20rem;
+    height: 17em;
+    padding: 2em;
+    color: $White;
+    background-color: $Very-Dark-Magenta;
+    h2{
+        font-size: 1.1em;
+        // border: 1px solid black;
+        width: 8em;
+    }
+    span{
+        color: $Soft-Pink;
+    }
+    p{
+        line-height: 1.5em;
+    }
+}
+@media(max-width: 25em){
+    .colton,.irene,.anne{
+        width: 19.5em;
+        margin: 0 auto;
+    }
+}
+// ratings for each ===========================^^^^^^
+.reviews,.guru,.besttech{
+    // border: 1px solid black;
+    width: 30em;
+    border-radius: 0.2em;
+    background-color: $Light-Grayish-Magenta;
+    color: $Very-Dark-Magenta;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-weight: 700;
+    
+}
+@media(max-width: 25em){
+    .reviews,.guru,.besttech{
+        // border: 1px solid black;
+        padding: 0.5em;
+        width: 19.5em;
+        flex-direction: column;
+        align-items: center;
+        gap: 0em;
+        margin: 0 auto;
+        font-weight: 700;
+        border-radius: 0.5em;
+        text-align: center;
+}
+}
+.star{
+    margin-left: 1.5em;
+    display: flex;
+        gap: 0.5em;
+
+    .fa-star{
+        color: orange;   // ratings color=========================================  
+    }
+}
+@media(max-width: 25em){
+    .star{
+        margin-left: 0;
+    }
+}
+
+// Big-text==============================================================================
+.main{
+    // border: 1px solid black;
+    display: flex;
+    gap: 5em;
+
+    .lead{
+    // border: 1px solid black;
+    width: 50em;
+
+        h1{
+            color: $Very-Dark-Magenta;
+            font-size: 4em;
+        }
+        p{
+            margin-top: -1.5em; 
+            line-height: 1.5em;
+            font-size: 1.4em;
+        }
+    
+    }
+    // ratings section ==================
+    .ratings{
+    padding-top: 4em;
+    // border: 1px solid black;
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+      .guru{
+        margin-left: 4em;
+      }  
+      .besttech{
+        margin-left: 8em;
+      }
+    }
+    
+}
+@media(max-width: 25em){
+    .main{
+        flex-direction: column;
+        gap: 4em;
+        .lead{
+            width: 20em;
+            h1{
+                font-size: 2em;
+                // border: 1px solid black;
+                width: 9em;
+                margin: 1em auto;
+                text-align: center;
+            }
+            p{
+                // border: 1px solid black;
+                margin: -1.1em auto;
+                text-align: center;
+                font-size: 1.1em;
+                font-weight: 500;
+                width: 18.1em;
+
+            }
+        }
+        .ratings{
+            width: 20em;
+            // border: 1px solid black;
+            gap: 1em;
+            padding-top: 0;
+            
+            .guru,.besttech{
+
+               margin-left: 0;
+              }  
+              
+              
+        }
+    }
+}
+// comment section ============================================================================
+.comments{
+    // border: 1px solid black;
+    display: flex;
+    height: 26em;
+    justify-content: space-between;
+    
+    .irene{
+        margin-top: 2em;
+    }
+    .anne{
+        margin-top: 4em;
+
+    }
+
+    .heading{
+        display: flex;
+        // border: 1px solid white;
+        gap: 2em;
+        align-items: center;
+        
+        .pic{
+            // display: 1px solid black;
+            width: 3em;
+            img{
+                max-width: 100%;
+                border-radius: 1.5em;
+            }
+        }
+    }
+}
+@media(max-width: 25em){
+    .comments{
+        flex-direction: column;
+        .anne{
+            margin-top: 2em;
+        }
+    }
+}
+
