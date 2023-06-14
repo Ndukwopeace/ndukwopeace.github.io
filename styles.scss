@@ -24,13 +24,15 @@ body{
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     background-color: $White;
+    display: grid;
+    place-items: center;
 }
 
 // general
 .container{
     width: 75em;
     height: 50em;
-    margin: 6.5em auto;
+    // margin: 6.5em auto;
     // border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,6 @@ body{
 }
 @media(max-width: 27.6em){
     .container{
-        margin: 1em auto;
         width: 20em;
         height: 98em;
     }
