@@ -36,7 +36,7 @@ body{
     flex-direction: column;
     gap: 2em;
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .container{
         margin: 1em auto;
         width: 20em;
@@ -63,7 +63,7 @@ body{
         line-height: 1.5em;
     }
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .colton,.irene,.anne{
         width: 19.5em;
         margin: 0 auto;
@@ -82,7 +82,7 @@ body{
     font-weight: 700;
     
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .reviews,.guru,.besttech{
         // border: 1px solid black;
         padding: 0.5em;
@@ -105,7 +105,7 @@ body{
         color: orange;   // ratings color=========================================  
     }
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .star{
         margin-left: 0;
     }
@@ -150,7 +150,7 @@ body{
     }
     
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .main{
         flex-direction: column;
         gap: 4em;
@@ -219,7 +219,7 @@ body{
         }
     }
 }
-@media(max-width: 25em){
+@media(max-width: 27.6em){
     .comments{
         flex-direction: column;
         .anne{
